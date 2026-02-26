@@ -1,0 +1,8 @@
+{
+  "language": "es-ES",
+  "unitTestProvider": "xunit",
+  "allowDebugGeneratedFiles": false,
+  "allowRowTests": true,
+  "markFeaturesParallelizable": true,
+  "skipParallelizationForTags": []
+}

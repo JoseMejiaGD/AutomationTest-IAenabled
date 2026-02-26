@@ -1,0 +1,44 @@
+# Compilación
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.o
+
+# IDE
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+.vs/
+.idea/
+*.sln.iml
+
+# Editor
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.user
+
+# Test Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Archivos de prueba
+*.trx
+test-results.json
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Temporal
+temp/
+tmp/
+*.tmp

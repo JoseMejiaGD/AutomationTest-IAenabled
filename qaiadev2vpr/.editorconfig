@@ -1,0 +1,34 @@
+# EditorConfig es útil para mantener estilos consistentes
+# across multiple editors and IDEs.
+# editorconfig.org
+
+root = true
+
+# Todos los archivos
+[*]
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Archivos C#
+[*.cs]
+indent_style = space
+indent_size = 4
+csharp_indent_case_contents = true
+csharp_indent_switch_labels = true
+csharp_indent_labels = no_change
+csharp_new_line_before_open_brace = all
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
+csharp_new_line_before_members_in_object_initializers = true
+csharp_new_line_before_members_in_anonymous_types = true
+
+# Archivos JSON
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Archivos Markdown
+[*.md]
+trim_trailing_whitespace = false
